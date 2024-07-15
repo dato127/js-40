@@ -10,40 +10,40 @@
         class cube {
             height = "";
 
-            get_height() {
+            set_height() {
                 this.height = "50";
             }
 
-            set_height() {
+            get_height() {
                 console.log(this.get_height);
             }
 
             width = "";
 
-            get_width() {
+            set_width() {
                 this.width = "50";
             }
 
-            set_width() {
+            get_width() {
                 console.log(this.width);
             }
 
             length = "";
 
-            get_lenght() {
+            set_lenght() {
                 this.length = "50";
             }
 
-            set_lenght() {
+            get_lenght() {
                 console.log(this.length);
             }
         }
 
         var object = new cube;
 
-        object.get_height();
-        object.get_width();
-        object.get_lenght();
+        object.set_height();
+        object.set_width();
+        object.set_lenght();
 
         document.write(object.height + ",");
         document.write(object.width + ",");
